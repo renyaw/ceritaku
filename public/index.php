@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="css/style.css"/>        
 </head>
 <body>
-    <h1 class="text-center text-5xl">Ihiw</h1>
+    <h1 class="text-center text-5xl"></h1>
 </body>
 </html>
