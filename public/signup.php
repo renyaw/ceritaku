@@ -10,39 +10,42 @@
 </head>
 <body class="bg-sky-400">
     <div class="container">
-        <img src="img/logo.png" alt="" class="w-32 mx-auto mt-8">
+        <img src="img/logo.png" alt="" class="w-32 mx-auto mt-5">
     </div>
     <div class="forms">
         
-        <div class="px-40 py-10 max-w">
+        <div class="px-40 py-4 max-w">
             <form>
                 <div class="form-group mb-6">
                 <input type="text" class="form-control border-2 border-white w-full px-3
                     py-2.5 text-base font-normal text-black bg-sky-400 rounded-xl
-                    transition ease-in-out m-0 placeholder-white focus:outline-none" id="email" placeholder="Ussername">
+                    transition ease-in-out m-0 placeholder-white focus:outline-none" id="nama" placeholder="Nama">
                 </div>
-                <div class="form-group mb-12">
+                <div class="form-group mb-6">
+                <input type="email" class="form-control border-2 border-white w-full px-3
+                    py-2.5 text-base font-normal text-black bg-sky-400 rounded-xl
+                    transition ease-in-out m-0 placeholder-white focus:outline-none" id="email" placeholder="Email">
+                </div>
+                <div class="form-group mb-6">
+                <input type="text" class="form-control border-2 border-white w-full px-3
+                    py-2.5 text-base font-normal text-black bg-sky-400 rounded-xl
+                    transition ease-in-out m-0 placeholder-white focus:outline-none" id="uname" placeholder="Ussername">
+                </div>
+                <div class="form-group mb-6">
                 <input type="password" class="form-control border-2 border-white w-full px-3
                     py-2.5 text-base font-normal text-black bg-sky-400 rounded-xl 
                     transition ease-in-out m-0 placeholder-white focus:outline-none " id="password" placeholder="Password">
                 </div>
-                <div class="form-group mb-12">
+                <div class="form-group mb-8">
                 <input type="password" class="form-control border-2 border-white w-full px-3
                     py-2.5 text-base font-normal text-black bg-sky-400 rounded-xl 
-                    transition ease-in-out m-0 placeholder-white focus:outline-none " id="password" placeholder="Password">
+                    transition ease-in-out m-0 placeholder-white focus:outline-none " id="confirm" placeholder="Konfirmasi Password">
                 </div>
                 <div class="submit">
+                <label for="login" class="form-label inline-block mb-2 text-gray-700">Sudah Punya Akun? <span>Login</span></label>
                     <button type="submit" class=" py-2.5 mb-7 bg-blue-600 text-white font-medium leading-tight rounded-xl w-full
                     hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-                    active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Masuk</button>
-                </div>
-                <div class="daftar">
-                    <div class="label">
-                    <label for="exampleInputPassword1" class="form-label inline-block mb-2 text-gray-700">Belum Punya Akun?</label>
-                    </div>
-                    <button type="submit" class="px-20 py-2.5 bg-slate-500 text-white font-medium leading-tight rounded-xl w-full
-                    hover:bg-slate-600 hover:shadow-lg focus:bg-slate-600 focus:shadow-lg focus:outline-none focus:ring-0
-                    active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out">Daftar</button>
+                    active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Daftar</button>
                 </div>
                 
             </form>

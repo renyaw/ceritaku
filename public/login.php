@@ -33,11 +33,11 @@
                 </div>
                 <div class="daftar">
                     <div class="label">
-                    <label for="labell" class="form-label inline-block mb-2 text-gray-700">Belum Punya Akun?</label>
+                    <label for="label" class="form-label inline-block mb-2 text-gray-700">Belum Punya Akun?</label>
                     </div>
-                    <a href="signup.php"><button type="submit" class="px-20 py-2.5 bg-slate-500 text-white font-medium leading-tight rounded-xl w-full
+                    <a href="signup.php" type="button" class="px-20 py-2.5 bg-slate-500 text-white font-medium leading-tight rounded-xl w-full
                     hover:bg-slate-600 hover:shadow-lg focus:bg-slate-600 focus:shadow-lg focus:outline-none focus:ring-0
-                    active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out">Daftar</button></a>
+                    active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out text-center">Daftar</button></a>
                 </div>
                 
             </form>
