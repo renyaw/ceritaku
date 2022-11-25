@@ -35,7 +35,6 @@
                     <div class="label">
                     <label for="exampleInputPassword1" class="form-label inline-block mb-2 text-gray-700">Belum Punya Akun?</label>
                     </div>
-               
                     <button type="submit" class="px-20 py-2.5 bg-blue-600 text-white font-medium leading-tight rounded-xl w-full
                     hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
                     active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Daftar</button>
