@@ -42,7 +42,7 @@
                     transition ease-in-out m-0 placeholder-white focus:outline-none " id="confirm" placeholder="Konfirmasi Password">
                 </div>
                 <div class="submit">
-                <label for="login" class="form-label inline-block mb-2 text-gray-700">Sudah Punya Akun? <span>Login</span></label>
+                <label for="login" class="form-label inline-block mb-2 text-gray-700">Sudah Punya Akun? <span class="text-yellow-300 underline decoration-yellow-200"><a href="login.php">Login</a> </span></label>
                     <button type="submit" class=" py-2.5 mb-7 bg-blue-600 text-white font-medium leading-tight rounded-xl w-full
                     hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
                     active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Daftar</button>

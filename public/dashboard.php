@@ -9,6 +9,22 @@
     <script src="https://cdn.tailwindcss.com"></script>   
 </head>
 <body>
+    <div class="grid row-span-full pt-10 pl-10 bg-blue-600 w-full">
+        <div class="box  grid-cols-6">
+            <div id="currentTime" class="text-white"></div>
+            <script>
+            const element = document.getElementById('currentTime');
+            
+            setInterval(function () {
+                const currentDate = new Date();
+                element.innerText =  currentDate.getFullYear() + '-' + (currentDate.getMonth() + 1) + '-' + currentDate.getDate();
+            });
+            </script>
+        </div>
+        <div class="flex justify-end grid-cols-6">
+gfdgfdg
+        </div>
+    </div>
     
 </body>
 </html>
